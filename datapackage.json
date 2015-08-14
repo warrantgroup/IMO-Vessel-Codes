@@ -35,7 +35,7 @@
 			              "pattern": "[A-Z]{2}"
 			        },
 			        {
-			              "name": "type",
+			              "name": "Type",
 			              "type": "string",
 			              "description": "Ship Type, i.e. Cargo, Tanker, Fishing",
 			              "pattern": "[A-Z]{35}"
