@@ -17,7 +17,18 @@ For electronic messages the data that is required for transmission is:
 * Vessel Flag
 
 To categorise the vessel, the following is also included:
-* Vessel Type (Cargo, Tanker, fishing etc)
+
+* Vessel Type
+ * Reserved
+ * Navigation Aid
+ * Fishing
+ * Motor Hopper
+ * High Speed Craft
+ * Unknown
+ * Passenger
+ * Cargo
+ * Tanker
+ * Pleasure Craft
 
 The data set could be expanded to include other items, but they must be relevant to the specific vessel/IMO only to be useful.
 
