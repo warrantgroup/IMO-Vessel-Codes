@@ -13,7 +13,7 @@
   }],
     "resources": [
 	    {
-	      "path": "data/data.csv",
+	      "path": "data/imo-vessel-codes.csv",
 		      "schema": {
 		        "fields": [
 		          {
