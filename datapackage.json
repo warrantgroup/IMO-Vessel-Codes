@@ -25,7 +25,7 @@
 			        {
 			              "name": "Name",
 			              "type": "string",
-			              "description": "Name of the Vessel",
+			              "description": "Name of the vessel",
 			              "pattern": "[A-Z]{35}"
 			        },
 			        {
@@ -37,7 +37,7 @@
 			        {
 			              "name": "Type",
 			              "type": "string",
-			              "description": "Ship Type, i.e. Cargo, Tanker, Fishing",
+			              "description": "Vessel type ie: Reserved|Navigation Aid|Fishing|Motor Hopper|High Speed Craft|Unknown|Passenger|Cargo|Tanker|Pleasure Craft",
 			              "pattern": "[A-Z]{35}"
 			        }]
 			        }
