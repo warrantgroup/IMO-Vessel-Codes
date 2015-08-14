@@ -1,0 +1,47 @@
+{
+	"name": "imo-vessel-codes",
+        "title": "IMO Vessel Codes",
+        "license": "ODC-PDDL-1.0",
+	"description": "List of IMO coded vessels, vessel type, flag code and vessel names",
+	"version": "1.0.0",
+	"sources": [{
+	  "name": "Marine Traffic",
+      "web": "http://www.marinetraffic.com/ais/index/ships/all/"
+  },{
+    "name": "Vessel Finder",
+    "web": "https://www.vesselfinder.com/vessels"
+  }],
+    "resources": [
+	    {
+	      "path": "data/data.csv",
+		      "schema": {
+		        "fields": [
+		          {
+			              "name": "IMO",
+			              "type": "string",
+			              "description": "A 7 digit unique number assigned to seagoing ships under the SOLAS regulation, stays with the hull regardless of name or flag changes",
+			              "pattern": "[0-9]{7}"
+			        },
+			        {
+			              "name": "Name",
+			              "type": "string",
+			              "description": "Name of the Vessel",
+			              "pattern": "[A-Z]{35}"
+			        },
+			        {
+			              "name": "Flag",
+			              "type": "string",
+			              "description": "2 Digit ISO 3166 Country Code of the vessel flag",
+			              "pattern": "[A-Z]{2}"
+			        },
+			        {
+			              "name": "type",
+			              "type": "string",
+			              "description": "Ship Type, i.e. Cargo, Tanker, Fishing",
+			              "pattern": "[A-Z]{35}"
+			        }]
+			        }
+		}
+	]
+}
+			
