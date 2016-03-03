@@ -23,6 +23,12 @@
 			              "pattern": "[0-9]{7}"
 			        },
 			        {
+			        	"name": "MMSI",	
+			        	"type": "integer",
+			        	"description":"A Maritime Mobile Service Identity (MMSI) is a series of nine digits which are sent in digital form over a radio frequency channel in order to uniquely identify ship stations, ship earth stations, coast stations, coast earth stations, and group calls.",
+			        	"pattern": "[0-9]{9}"
+			        },
+			        {
 			              "name": "Name",
 			              "type": "string",
 			              "description": "Name of the vessel",
